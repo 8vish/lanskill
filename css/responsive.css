@@ -47,8 +47,8 @@
     }
 
     .slider_section .carousel-indicators {
-        width: 450px;
-        min-width: 450px;
+        /* width: 450px; */
+        min-width: 300px;
     }
 
     .about_section .img-box {
@@ -152,8 +152,8 @@
     }
 
     .slider_section .carousel-indicators {
-        width: 400px;
-        min-width: 400px;
+        width: 300px;
+        min-width: 300px;
     }
 
     .gallery_section .gallery_container .box {

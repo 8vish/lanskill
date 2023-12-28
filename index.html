@@ -24,6 +24,8 @@
   <link href=" css/style.css" rel="stylesheet" />
   <!-- responsive style -->
   <link href="css/responsive.css" rel="stylesheet" />
+<link rel="stylesheet" href="/css/pricing.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css" integrity="sha384-BY+fdrpOd3gfeRvTSMT+VUZmA728cfF9Z2G42xpaRkUGu2i3DyzpTURDo5A6CaLK" crossorigin="anonymous">
 </head>
 
 <body>
@@ -138,6 +140,149 @@
     </section>
     <!-- end slider section -->
   </div>
+
+<!-- Pricing Table  -->
+<section class="pricing-plans">
+  <div class="pricing-card basic">
+    <div class="heading">
+      <h4>BASIC</h4>
+      <p>for small websites or blogs</p>
+    </div>
+    <p class="price">
+      $2
+      <sub>/month</sub>
+    </p>
+    <ul class="features">
+      <li>
+        <i class="fa-solid fa-check"></i>
+        <strong>1 domain</strong> name
+      </li>
+      <li>
+        <i class="fa-solid fa-check"></i>
+        <strong>10 GB</strong> of disk space
+      </li>
+      <li>
+        <i class="fa-solid fa-check"></i>
+        <strong>100GB </strong>of bandwidth
+      </li>
+      <li>
+        <i class="fa-solid fa-check"></i>
+        <strong>1 MySQL</strong> database
+      </li>
+      <li>
+        <i class="fa-solid fa-check"></i>
+        <strong>5 email</strong> accounts
+      </li>
+      <li>
+        <i class="fa-solid fa-check"></i>
+        <strong>cPanel</strong> control panel
+      </li>
+      <li>
+        <i class="fa-solid fa-check"></i>
+        <strong>Free SSL</strong> certificate
+      </li>
+      <li>
+        <i class="fa-solid fa-check"></i>
+        <strong>24/7</strong> support
+      </li>
+    </ul>
+    <button class="cta-btn">SELECT</button>
+  </div>
+  <div class="pricing-card standard">
+    <div class="heading">
+      <h4>STANDARD</h4>
+      <p>for medium-sized businesses</p>
+    </div>
+    <p class="price">
+      $5
+      <sub>/month</sub>
+    </p>
+    <ul class="features">
+      <li>
+        <i class="fa-solid fa-check"></i>
+        <strong>Unlimited</strong> domain name
+      </li>
+      <li>
+        <i class="fa-solid fa-check"></i>
+        <strong>50 GB</strong> of disk space
+      </li>
+      <li>
+        <i class="fa-solid fa-check"></i>
+        <strong>500GB </strong>of bandwidth
+      </li>
+      <li>
+        <i class="fa-solid fa-check"></i>
+        <strong>10 MySQL</strong> database
+      </li>
+      <li>
+        <i class="fa-solid fa-check"></i>
+        <strong>50 email</strong> accounts
+      </li>
+      <li>
+        <i class="fa-solid fa-check"></i>
+        <strong>cPanel</strong> control panel
+      </li>
+      <li>
+        <i class="fa-solid fa-check"></i>
+        <strong>Free SSL</strong> certificate
+      </li>
+      <li>
+        <i class="fa-solid fa-check"></i>
+        <strong>24/7</strong> support
+      </li>
+    </ul>
+    <button class="cta-btn">SELECT</button>
+  </div>
+  <div class="pricing-card premium">
+    <div class="heading">
+      <h4>PREMIUM</h4>
+      <p>for small businesses</p>
+    </div>
+    <p class="price">
+      $10
+      <sub>/month</sub>
+    </p>
+    <ul class="features">
+      <li>
+        <i class="fa-solid fa-check"></i>
+        <strong>Unlimited</strong> domain name
+      </li>
+      <li>
+        <i class="fa-solid fa-check"></i>
+        <strong>100 GB</strong> of disk space
+      </li>
+      <li>
+        <i class="fa-solid fa-check"></i>
+        <strong>1TB </strong>of bandwidth
+      </li>
+      <li>
+        <i class="fa-solid fa-check"></i>
+        <strong>Unlimited MySQL</strong> database
+      </li>
+      <li>
+        <i class="fa-solid fa-check"></i>
+        <strong>Unlimited email</strong> accounts
+      </li>
+      <li>
+        <i class="fa-solid fa-check"></i>
+        <strong>cPanel</strong> control panel
+      </li>
+      <li>
+        <i class="fa-solid fa-check"></i>
+        <strong>Free SSL</strong> certificate
+      </li>
+      <li>
+        <i class="fa-solid fa-check"></i>
+        <strong>24/7 priority</strong> support
+      </li>
+      <li>
+        <i class="fa-solid fa-check"></i>
+        <strong>Advanced</strong> security features
+      </li>
+    </ul>
+    <button class="cta-btn">SELECT</button>
+  </div>
+</section>
 
   <!-- about section -->
 
@@ -503,7 +648,18 @@
                 </ul>
               </div>
             </div>
-            <div class="col-md-6 ">
+            <style>
+              .social_box a img {
+                filter: brightness(1.8) contrast(0.8) saturate(2) hue-rotate(30deg);
+                transition: filter 0.3s ease-in-out;
+              }
+            
+              .social_box a:hover img {
+                filter: brightness(1) contrast(1) saturate(1) hue-rotate(0deg);
+              }
+            </style>
+            
+            <div class="col-md-6">
               <div class="social_box">
                 <a href="#">
                   <img src="images/facebook.png" alt="" />
@@ -522,6 +678,7 @@
                 </a>
               </div>
             </div>
+            
           </div>
         </div>
       </div>
