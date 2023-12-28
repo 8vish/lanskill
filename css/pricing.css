@@ -26,7 +26,7 @@
   .pricing-card {
     --col: #e4e4e7;
     position: relative;
-    min-width: 360px;
+    min-width: 300px;
     padding: 32px;
     padding-bottom: 96px;
     border-radius: 4px;
