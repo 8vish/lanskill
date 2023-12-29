@@ -1107,6 +1107,15 @@ a:focus {
   body {
     overflow-x: hidden;
   }
+
+  .carousel-indicators {
+    padding-top: 25px;
+  }
+
+  .indi {
+    margin-bottom: 25px;
+  }
+
 }
 
 

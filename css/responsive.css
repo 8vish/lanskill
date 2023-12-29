@@ -204,7 +204,7 @@
     }
 
     .gallery_section .gallery_container .box .img-box {
-        /* width: 100%; */
+        width: 100%;
         border-radius: 10px;
     }
 
@@ -212,6 +212,19 @@
         border-radius: 25px;
     }
 }
+
+.main_nav_menu {
+    justify-content: space-between;
+}
+
+.user_option {
+    margin-left: 0;
+}
+
+.navbar-brand {
+    margin-right: 0;
+}
+
 
 /* @media (max-width: 480px) {
     .main_nav_menu {
