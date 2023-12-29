@@ -62,21 +62,19 @@
     
     <script>
         function sendWhatsAppMessage() {
-            // Validate inputs
             var name = document.getElementById('nameInput').value;
             var email = document.getElementById('emailInput').value;
             var message = document.getElementById('messageInput').value;
     
             if (!name || !email || !message) {
-                alert('All fields are required');
+                alert('Please fill in all the required fields.');
                 return;
             }
     
-            // Combine the extracted text
-            var textToSend = "Name: " + name + "%0AEmail: " + email + "%0AMessage: " + message;
+            var professionalText = "Hello, I am interested in your services. Here are my details:";
+            var textToSend = professionalText + "%0A%0AName: " + name + "%0AEmail: " + email + "%0AMessage: " + message;
     
-            // Open WhatsApp message window
-            window.open("https://api.whatsapp.com/send/?phone=+919389403209&text=" + textToSend, "_blank");
+            window.open("https://wa.me/919389403209?text=" + textToSend, "_blank");
         }
     </script>
         
