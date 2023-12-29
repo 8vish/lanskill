@@ -1099,4 +1099,13 @@ a:focus {
   color: #fff;
   opacity: 1;
 }
+
+/* Add this media query at the end of your style.css file */
+@media (max-width: 576px) {
+  body {
+    overflow-x: hidden;
+  }
+}
+
+
 /*# sourceMappingURL=style.css.map */
