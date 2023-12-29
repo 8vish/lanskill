@@ -156,6 +156,9 @@ body {
   margin: 7px 0;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
+  text-align: left;
+  align-items: left;
+  justify-content: left;
 }
 
 .custom_menu-btn .s-2 {
@@ -381,10 +384,20 @@ a:focus {
   margin-top: 75px;
 }
 
-.slider_section .detail-box h1 {
+ .slider_section .detail-box h1 {
   font-size: 3rem;
   font-family: "Andale Mono";
+} 
+
+.photography {
+    display: block;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #fad932; /* Bright color for the photography text */
+    margin-top: 10px;
+    letter-spacing: 2px; /* Add some letter-spacing for better visibility */
 }
+
 
 .slider_section .detail-box p {
   margin-top: 15px;

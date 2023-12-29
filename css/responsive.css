@@ -40,16 +40,17 @@
 
     .slider_section .detail-box {
         margin-top: 0;
+        width: 400px;
     }
 
     .slider_section .img-box::before {
         display: block;
     }
-
+/* 
     .slider_section .carousel-indicators {
-        /* width: 450px; */
-        min-width: 300px;
-    }
+        width: 450px;
+        min-width: 350px;
+    } */
 
     .about_section .img-box {
         width: 100%;
