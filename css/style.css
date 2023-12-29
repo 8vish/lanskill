@@ -658,8 +658,8 @@ a:focus {
   width: 100%;
   -webkit-transform: rotate(-25deg);
           transform: rotate(-25deg);
-  -webkit-animation: hueAnimate .7s infinite;
-          animation: hueAnimate .7s infinite;
+  /* -webkit-animation: hueAnimate .7s infinite;
+          animation: hueAnimate .7s infinite; */
 }
 
 .about_section .btn-box {
@@ -1105,6 +1105,13 @@ a:focus {
   body {
     overflow-x: hidden;
   }
+}
+
+
+/* Gallery Images css */
+
+.gallery_bg img {
+  border-radius: 20px;
 }
 
 
