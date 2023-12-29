@@ -209,11 +209,12 @@ body {
   z-index: 1;
   top: 0;
   left: 0;
-  background: rgba(3, 16, 3, 0.95);
+  background: linear-gradient(45deg, #000000, #fdd835);
+  /* Adjust the gradient colors and direction as needed */
   overflow-x: hidden;
-  -webkit-transition: 0.5s;
   transition: 0.5s;
 }
+
 
 .overlay .closebtn {
   position: absolute;
@@ -329,6 +330,7 @@ a:focus {
 .custom_nav-container .navbar-toggler .navbar-toggler-icon {
   background-image: url(../images/menu.png);
   background-size: 55px;
+  filter: invert(1);
 }
 
 .main_nav_menu {
@@ -385,7 +387,7 @@ a:focus {
 }
 
  .slider_section .detail-box h1 {
-  font-size: 3rem;
+  font-size: 2rem;
   font-family: "Andale Mono";
 } 
 
@@ -655,7 +657,7 @@ a:focus {
 }
 
 .about_section .img-box .about-img {
-  width: 100%;
+  width: 80%;
   -webkit-transform: rotate(-25deg);
           transform: rotate(-25deg);
   /* -webkit-animation: hueAnimate .7s infinite;
