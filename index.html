@@ -149,11 +149,12 @@
       <!-- end slider section -->
   </div>
   
-  <h2 class="heading mt-4 text-center">Our Plans</h2>
+ <h2 class="heading mt-4 text-center">Our Plans</h2>
+
   <section class="pricing-plans">
     <div class="pricing-card basic">
       <div class="heading">
-        <h4>BASIC</h4>
+        <h4 class="tableheading">BASIC</h4>
         <p>Essential coverage for small events</p>
       </div>
       <p class="price">₹35,000 <sub>/event</sub></p>
@@ -177,7 +178,7 @@
 
       <div class="pricing-card standard">
           <div class="heading">
-              <h4>STANDARD</h4>
+              <h4 class="tableheading">STANDARD</h4>
               <p>Comprehensive coverage for medium-sized events</p>
           </div>
           <p class="price">₹50,000 <sub>/event</sub></p>
@@ -203,7 +204,7 @@
 
       <div class="pricing-card premium">
           <div class="heading">
-              <h4>PREMIUM</h4>
+              <h4 class="tableheading">PREMIUM</h4>
               <p>Extensive coverage for large events</p>
           </div>
           <p class="price">₹80,000 <sub>/event</sub></p>
@@ -241,9 +242,9 @@
               About Lenskill Photography
             </h2>
             <p>
-              Lenskill Photography is dedicated to capturing timeless moments and creating stunning visual stories. We believe in the art of photography that goes beyond the ordinary, ensuring that each image tells a unique tale.
+              Welcome to Lenskill.com We're a team of dedicated photographers with a love for capturing special moments. Whether it's weddings, pre-wedding celebrations, parties, or any private occasion, Lenskill specializes in turning those moments into unforgettable memories.<br> Our plans are tailored to suit your needs, ensuring that every occasion is beautifully captured and preserved for you to cherish.
             </p>
-            <a href="#">
+            <a href="about.html">
               Read More
             </a>
           </div>
@@ -273,7 +274,7 @@
             <p>
               It is a long established fact that a reader will be distracted by the readable content of a page
             </p>
-            <a href="">
+            <a href="gallery.html">
               See More
             </a>
           </div>
@@ -456,43 +457,66 @@
     </section>
   </section>
 
-
 <!-- Footer Section -->
-<footer class="footer p-4">
+<footer class="footer_section bg-dark text-white">
   <div class="container">
     <div class="row">
-      <!-- Contact Information Section -->
-      <div class="col-md-4">
-        <h4>Contact Us</h4>
-        <p>1002, Avas Vikas Colony, Rishikesh, Uttarakhand 249201</p>
-        <p>Email: <a href="mailto:Lenskillservices@gmail.com">Lenskillservices@gmail.com</a></p>
-        <p>Call: <a href="tel:+919389403209">+91 93894 03209</a></p>
-      </div>
+
+      <!-- Column 1: Address, Call, Email -->
+   <div class="col-md-3 contact">
+  <h4>Contact</h4>
+  <ul class="list-unstyled">
+    <li><i class="fas fa-map-marker-alt"></i> 35HV+FJ3 Chak Jogi wala, Chidderwala, Uttrakhand 249204, India</li>
+    <li><i class="fas fa-phone"></i> +01 1234567890</li>
+    <li><i class="fas fa-envelope"></i> Lenskillservices @gmail.com</li>
+  </ul>
+</div>
+
 
       <!-- Quick Links Section -->
-      <div class="text-center col-md-4">
-        <h4>Quick Links</h4>
-        <ul class="list-unstyled">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="gallery.html">Gallery</a></li>
-          <li><a href="testimonial.html">Testimonial</a></li>
-        </ul>
-      </div>
-      <!-- Social Icons Section -->
-      <div class="col-md-4 social">
-        <h4>Follow Us</h4>
-        <div class="social-icons">
-          <a href="https://www.facebook.com/profile.php?id=100068045840545&mibextid=2JQ9oc" target="_blank"><i class="fab fa-facebook"></i> Facebook</a>
-          <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i> Twitter</a>
-          <a href="https://www.linkedin.com/in/jashveer-singh-rana-8b658425b" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
-          <a href="https://www.instagram.com/lenskill_" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>
-          <a href="https://www.youtube.com/@Lenskillshorts" target="_blank"><i class="fab fa-youtube"></i> YouTube</a>
+      <div class="col-md-3">
+        <div class="footer-links-container">
+          <h4>Quick Links</h4>
+          <ul class="list-unstyled">
+            <li><a href="/"><i class="fas fa-home"></i> Home</a></li>
+            <li><a href="/about"><i class="far fa-address-card"></i> About</a></li>
+            <li><a href="/gallery"><i class="far fa-images"></i> Gallery</a></li>
+            <li><a href="/contact"><i class="fas fa-envelope"></i> Contact</a></li>
+            <li><a href="/testimonials"><i class="far fa-star"></i> Testimonials</a></li>
+          </ul>
         </div>
       </div>
+
+      <!-- Legal Links Section -->
+      <div class="col-md-3">
+        <div class="footer-links-container">
+          <h4>Legal</h4>
+          <ul class="list-unstyled">
+            <li><a href="/terms"><i class="fas fa-file-alt"></i> Terms of Service</a></li>
+            <li><a href="/privacy"><i class="fas fa-shield-alt"></i> Privacy Policy</a></li>
+            <li><a href="/disclaimer"><i class="fas fa-exclamation-triangle"></i> Disclaimer</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Social Links Section -->
+      <div class="col-md-3">
+        <div class="footer-links-container">
+          <h4>Social Links</h4>
+          <div class="social_links">
+            <a href="https://www.facebook.com/profile.php?id=100068045840545&mibextid=2JQ9oc" class="text-white"><i class="fab fa-facebook"></i> Facebook</a>
+            <a href="https://twitter.com/Jshveerrana" class="text-white"><i class="fab fa-twitter"></i> Twitter</a>
+            <a href="https://in.linkedin.com/in/jashveer-singh-rana-8b658425b" class="text-white"><i class="fab fa-linkedin"></i> LinkedIn</a>
+            <a href="https://www.instagram.com/lenskill_" class="text-white"><i class="fab fa-instagram"></i> Instagram</a>
+            <a href="https://www.youtube.com/@Lenskillshorts" class="text-white"><i class="fab fa-youtube"></i> YouTube</a>
+          </div>
+        </div>
+      </div>
+
     </div>
   </div>
 </footer>
+
   <script src="js/jquery-3.4.1.min.js"></script>
   <script src="js/bootstrap.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
