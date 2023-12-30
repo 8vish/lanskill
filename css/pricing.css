@@ -129,3 +129,12 @@ body {
   color: var(--col);
   transition: all 0.3s ease;
 }
+
+.price {
+  font-size: 2rem
+}
+
+.tableheading {
+  font-size: 2rem
+}
+

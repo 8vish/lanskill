@@ -1178,8 +1178,105 @@ a:focus {
 .hr {
   color: #962727;
   width: 100%;
-  bo
 }
 
+/* Footer CSS */
+
+.footer_section {
+  padding: 50px 0;
+}
+
+.footer_section h4 {
+  color: #fff;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.footer_section p,
+.footer_section ul {
+  color: #a0a0a0;
+  font-size: 14px;
+  line-height: 1.8;
+}
+
+.footer_section a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer_section a:hover {
+  text-decoration: underline;
+}
+
+/* Social Links Styling */
+.social_links a {
+  display: block;
+  margin-bottom: 10px;
+}
+
+/* Icons Styling */
+.footer_section i {
+  margin-right: 10px;
+}
+
+
+.contact {
+
+    color: #fff; /* Set text color to white */
+
+  }
+
+  .contact h4 {
+    color: #fff; /* Set heading color to white */
+  }
+
+  .contact ul {
+    padding: 0;
+    list-style: none;
+  }
+
+  .contact li {
+    padding: 10px 0;
+    border-bottom: 1px solid #eeeeee;
+  }
+
+  .contact li:last-child {
+    border-bottom: none;
+  }
+
+  .contact i {
+    margin-right: 10px;
+    color: #fff; /* Set icon color to white */
+  }
+
+
+.contact {
+  color: red;
+}
+
+.footer-links-container {
+  padding-top: 20px;
+}
+
+.footer-links-container h4, h4 {
+  border-bottom: 1px solid #555;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.list-unstyled li {
+  padding-bottom: 10px;
+}
+
+@media (max-width: 767.98px) {
+  .footer-links-container {
+    text-align: center;
+  }
+
+  .list-unstyled li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */

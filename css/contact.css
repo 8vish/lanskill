@@ -1,5 +1,12 @@
+* {
+  overflow-x: hidden !important;
+}
+
+
+
 body{
-    color:#fff
+    color:#fff;
+    overflow-x: hidden !important;
   }
   .right_conatct_social_icon{
        background: linear-gradient(to top right, #1325e8 -5%, #8f10b7 100%);
@@ -143,6 +150,11 @@ body{
   
       .contact_info_sec {
           margin-top: 20px; /* Adjust spacing between the form and contact info */
+          padding: 20px !important;
+          margin: 20px !important;
+      border-radius: 10px;
+      background-color: #fff;
+      color: #000;
       }
   }
   
