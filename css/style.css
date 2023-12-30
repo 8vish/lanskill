@@ -6,7 +6,7 @@
 
 html {
   scroll-behavior: smooth;
-  overflow-x: hidden;
+  overflow-x: hidden !important;
 }
 
 body {
@@ -1125,7 +1125,60 @@ a:focus {
   border-radius: 20px;
 }
 
+.footer {
+  background: linear-gradient(to right, #1f2a40, #394867);
+  color: #fff;
+  padding: 40px 0;
+}
 
+.footer h4 {
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.footer p {
+  color: #fff;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.logo a {
+  text-decoration: none;
+}
+
+.logo a:hover {
+  color: #1abc9c;
+}
+
+.social-icons {
+  margin-top: 20px;
+}
+
+.social-icons a {
+  display: block;
+  margin-bottom: 15px;
+  color: #fff;
+  transition: transform 0.3s ease-in-out;
+}
+
+.social-icons a:hover {
+  transform: scale(1.2);
+}
+
+@media (max-width: 767px) {
+  .social {
+    text-align: center;
+  }
+  .social-icons {
+    text-align: center;
+  }
+
+}
+.hr {
+  color: #962727;
+  width: 100%;
+  bo
+}
 
 
 /*# sourceMappingURL=style.css.map */
