@@ -138,3 +138,9 @@ body {
   font-size: 2rem
 }
 
+/* Media Query for Desktop */
+@media (min-width: 992px) {
+  .pricing-card {
+    flex: 1;
+  }
+}
