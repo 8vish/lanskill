@@ -119,7 +119,7 @@
 <script>
   document.addEventListener("DOMContentLoaded", function () {
     // Number of images
-    const numImages = 17;
+    const numImages = 22;
 
     // Reference to the gallery container
     const galleryContainer = document.getElementById("gallery");
@@ -127,13 +127,13 @@
     // Generate cards with Glightbox links
     for (let i = 1; i <= numImages; i++) {
       const card = document.createElement("div");
-      card.classList.add("col-md-4", "mb-4");
+      card.classList.add("col-md-4", "mb-4",);
 
       card.innerHTML = `
         <div class="card image-card mt-4">
           <div class="image-container">
-            <a href="/wedding-gallery/${String(i).padStart(3, '0')}.webp" class="glightbox" data-title="Image ${i}" data-gallery="gallery">
-              <img width="auto" height="auto" loading="lazy"  src="/wedding-gallery/${String(i).padStart(3, '0')}.webp" class="card-img-top" alt="Image ${i}">
+            <a href="/wedding-gallery/${String(i).padStart(3, '0')}.jpg" class="glightbox" data-title="Image ${i}" data-gallery="gallery">
+              <img src="/wedding-gallery/${String(i).padStart(3, '0')}.jpg" class="card-img-top" alt="Image ${i}">
               <div class="image-overlay">
                
               </div>
@@ -151,6 +151,7 @@
     });
   });
 </script>
+
 
 </body>
 </html>
